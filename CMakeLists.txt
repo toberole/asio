@@ -4,3 +4,5 @@ project(asio)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(asio main.cpp)
+
+target_link_libraries(asio pthread)
